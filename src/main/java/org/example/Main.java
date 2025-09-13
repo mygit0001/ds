@@ -1,7 +1,9 @@
 package org.example;
 
+import org.example.ds.dijkstra.DijkstraAlgo;
 import org.example.ds.traverse.graph.BFS;
 import org.example.ds.traverse.graph.DFS;
+import org.example.ds.traverse.graph.PrimsAlgorithm;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -12,8 +14,13 @@ public class Main {
 //        BFS traverseBfs=new BFS();
 //        traverseBfs.traverseGraph_bfs();
 
-        DFS dfs=new DFS();
-        dfs.traverseGraph_dfs(3);
+//        DFS dfs=new DFS();
+//        dfs.traverseGraph_dfs(3);
+
+//        PrimsAlgorithm primsAlgorithm=new PrimsAlgorithm();
+//        primsAlgorithm.getMinSpanningTree(4);
+        DijkstraAlgo dijkstraAlgo=new DijkstraAlgo();
+        dijkstraAlgo.getMinimumSpanningTree();
 //        }
     }
 }
