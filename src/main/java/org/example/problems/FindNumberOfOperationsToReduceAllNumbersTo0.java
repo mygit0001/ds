@@ -1,4 +1,4 @@
-package org.example.ds;
+package org.example.problems;
 
 public class FindNumberOfOperationsToReduceAllNumbersTo0 {
 
